@@ -1,0 +1,35 @@
+Hãy viết một chương trình C++ để quản lý thông tin sinh viên trong một lớp học. Chương trình của bạn cần áp dụng danh sách liên kết đơn để lưu trữ và quản lý danh sách sinh viên.
+
+Yêu cầu:
+
+1. Cấu trúc dữ liệu:
+
+	+ Tạo một cấu trúc SinhVien với các thuộc tính sau:
+		Mã sinh viên (maSinhVien - kiểu chuỗi).
+		Tên sinh viên (tenSinhVien - kiểu chuỗi).
+		Điểm trung bình (diemTrungBinh - kiểu số thực).
+	+ Tạo một cấu trúc Node để lưu trữ thông tin của từng sinh viên và con trỏ đến sinh viên tiếp theo trong danh sách.
+
+2. Chức năng chính:
+
+	D.Thêm sinh viên vào danh sách: Nhập thông tin sinh viên từ bàn phím và thêm sinh viên vào danh sách.
+	D.Hiển thị danh sách sinh viên: In ra danh sách tất cả các sinh viên hiện có trong danh sách theo thứ tự nhập vào.
+	D.Tìm kiếm sinh viên theo mã sinh viên: Tìm kiếm một sinh viên trong danh sách dựa trên mã sinh viên được nhập vào từ bàn phím.
+	D.Xóa sinh viên khỏi danh sách: Xóa một sinh viên khỏi danh sách dựa trên mã sinh viên.
+	Cập nhật thông tin sinh viên: Cập nhật thông tin (tên, điểm trung bình) của một sinh viên trong danh sách dựa trên mã sinh viên.
+	Hiển thị danh sách sinh viên: Hiển thị danh sách theo điểm trung bình giảm dần (Tạo thêm một danh sách tạm trên danh sách đã có và sắp xếp danh sách trước khi hiển thị).
+	Ghi danh sách sinh viên ra file: Ghi thông tin sinh viên ra file khi thêm sinh viên thành công.
+	Đọc danh sách sinh viên từ file: Khi khởi động chương trình, nếu file danh sách sinh viên tồn tại, chương trình sẽ đọc dữ liệu từ file và nạp vào danh sách liên kết.
+
+3. Yêu cầu bổ sung:
+
+	Chương trình cần có giao diện thân thiện, dễ sử dụng.
+	Xử lý các trường hợp danh sách trống khi thực hiện các thao tác như hiển thị, tìm kiếm, xóa, v.v.
+	Đảm bảo rằng không có mã sinh viên trùng lặp trong danh sách.
+	Kiểm tra xem file có ghi và đọc thành công hay không, và thông báo cho người dùng nếu có lỗi.
+
+Gợi ý:
+
+	Bạn có thể tạo một menu đơn giản để người dùng có thể chọn các chức năng cần thực hiện như thêm, xóa, tìm kiếm, v.v.
+	Sắp xếp danh sách có thể được thực hiện bằng cách thay đổi vị trí các nút trong danh sách liên kết.
+	Khi đọc file, bạn có thể sử dụng cấu trúc lặp để đọc từng dòng và tạo các nút tương ứng trong danh sách liên kết.
