@@ -6,7 +6,7 @@ Quản lý sinh viên bằng danh sách liên kết sử dụng ngôn ngữ C++.
 - Bước 3: Đọc, ghi dữ liệu 
 - Bước 4: Hiển thị kết quả 
 # Outcome:
-[1](![image](https://github.com/user-attachments/assets/1003ef18-16fe-4e38-a8df-ae74568542ab)
+![image](https://github.com/user-attachments/assets/1003ef18-16fe-4e38-a8df-ae74568542ab)
 
 
 
